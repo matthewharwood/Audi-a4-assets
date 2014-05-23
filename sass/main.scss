@@ -1,0 +1,27 @@
+* {
+  -webkit-box-sizing: border-box; /* Android ≤ 2.3, iOS ≤ 4 */
+     -moz-box-sizing: border-box; /* Firefox ≤ 28 */
+          box-sizing: border-box; /* Chrome, Firefox 29+, IE 8+, Opera, Safari 5.1 */
+          position: relative;
+          margin: 0;
+          padding: 0;
+}
+.overflow-container {
+	position: relative;
+	height: 728px;
+	width: 1024px;
+}
+html, body {
+	height: 728px;
+	width: 1024px;
+	margin: 0;
+	padding: 0;
+	background: papayawhip;
+	overflow: hidden;
+
+}
+
+.section-one {
+	background: url(../images/tablet-a4.jpg) center center;
+	background-size: cover;
+}
